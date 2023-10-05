@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Samma font för hela bodyn, om ej annat anges*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+header {
+padding: 0.833rem;
+}
+
+header img {
+	width: 11.111rem;
+}
+
+/* Banner med olika element*/
+section.banner {
+	align-items: center;
+	background: url('img/bg4.47d4fa14a21d79fa6ef2.png');
+	background-position: 50%;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 50vh;
+}
+
+h1.rubrik-banner {
+	font-size: 3rem;
+	color: #f5f6fa;
+	margin-bottom: 0.66rem;
+}
+
+.underrubrik-banner {
+	font-size: 1.3rem;
+	color: #dcdde1;
+	font-weight: 300;
+}
+
+.search {
+background-color: #ffffff33;
+margin-top: 50.75px;
+padding: 7px 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 9px;
+}
+
+.banner form input {
+	font-size: 1rem;
+	font-family: 'Lato';
+	color: #38464d;
+	width: 17.22rem;
+	background-color: #f3f3f3;
+	padding: 0.55rem 0.38rem;
+	border-radius: 9px;
+	font-weight: 300;
+	margin-right: 0.45rem;
+}
+
+/* Funkar ej, varför?*/
+input::placeholder {
+	font-family: 'Lato';
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.banner button {
+	font-size: 15.5px;
+	font-family: arial;
+	color: white;
+	background-color: #4869db;
+	padding: 12px 15px;
+	border-radius: 9px;
+}
+
+.banner p {
+	font-size: 1.3rem;
+	color: white;
+	font-weight: 300;
+	margin-top: 0.9rem;
+}
+
+/* Navigation med knappar */
+nav {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style-type: none;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	/*padding-inline-start: 40px;*/
+}
+
+nav li {
+	margin-bottom: 0.5556rem;
+	margin-right: 0.5556rem;
+}
+
+nav button {
+	font-size: 1rem;
+	font-weight: 300;
+	color: #38464d;
+	background-color: #f0f3f3;
+	padding: 0.4rem 0.7rem;
+	border: none;
+	border-radius: 20px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+/* Egenskaper för Main */
+main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+/* Main-sektion med artiklar */
+main article {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid rgba(0,0,0,.05);
+	border-radius: 17px;
+	margin: 0 15px 35px;
+	padding: 2rem 1rem;
+	width: 30%;
+	box-shadow: 0 0 4px 0.3px #dcdde1;
+
+}
+
+.icons {
+	width: 61.25px;
+	height: 61.25px;
+}
+
+/* Footer */
+footer {
+	font-size: 17.5px;
+	background-color: #fbfbfb;
+	color: #3d3d3d;
+	padding: 17.5px 0px;
+}
